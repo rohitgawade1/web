@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: #161e54;
+    color: white;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#subHeading{
+    margin-bottom: 20px;
+}
+
+#input{
+    width: 450px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: none;
+}
+
+#searchBtn{
+    width: 100px;
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #161e54;
+    color: white;
+}
+
+#sub_container{
+    margin-top: 50px;
+    padding: 0 10rem;
+}
+
+#meaning_para{
+    margin: 20px 0;
+}

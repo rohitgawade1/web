@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./ProjectImage/galaxy.gif);
+    color: white;
+}
+
+.heading-h1, .inputs, .planets{
+    margin-top: 20px;
+}
+
+.inputs input, .inputs select, .inputs button{
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.inputs select{
+    border-radius: 5px;
+}
+
+.inputs button{
+    background-color: rgba(128, 128, 128, 0.819);
+    color: white;
+    border-radius: 5px;
+}
+
+.planets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    height: 400px;
+    width: 750px;
+    background-color: rgba(128, 128, 128, 0.176);
+}
+
+.planets img{
+    height: 300px;
+    width: 300px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 150px;
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.291);
+}
+
+.info h3{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.335);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    height: 100px;
+    width: 600px;
+    padding: 100px;
+    margin: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-color: rgba(180, 164, 164, 0.201);
+}
+
+.error h3{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.112);
+}
